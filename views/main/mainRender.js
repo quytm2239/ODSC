@@ -2,8 +2,14 @@ module.exports = function(app, views_router, config){
 	var utils = app.get('utils');
 	var errcode = app.get('errcode');
 	var auth = app.get('check_session');
-	views_router.get('/main', auth, function(req, res) {
+	views_router.get('/', auth, function(req, res) {
         res.sendFile(__dirname + '/index.html');
+	});
+	views_router.get('/dashboard', auth, function(req, res) {
+		res.sendFile(__dirname + '/dashboard.html');
+	});
+	views_router.get('/list', auth, function(req, res) {
+		res.sendFile(__dirname + '/list.html');
 	});
 
 	// views_router.get([

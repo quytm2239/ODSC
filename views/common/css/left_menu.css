@@ -1,0 +1,49 @@
+.left_menu_ul {
+    /*list-style-image: url('/img/icon_circle_information.png');*/
+    /*list-style-image: none !important;*/
+    list-style-type:none;
+    padding:0px;
+    /*margin:0px;*/
+    margin:0px !important;
+    width: 120px;
+    height: auto;
+}
+
+.left_menu_header {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.left_menu_li_div_left {
+    margin: auto;
+    float: left;
+	width: 30px;
+    height: 30px;
+    background: #e0115f;
+}
+
+.left_menu_li_div_right {
+    /*float:right;*/
+    margin-left: 30px;
+    margin-right: 0px;
+    width: auto;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.left_menu_header {
+    background: #9966cc;
+}
+
+.left_menu_li {
+    background: #50c878;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.left_menu_li_button .left_menu_li{
+    width: auto;
+}
