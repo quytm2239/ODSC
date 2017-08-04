@@ -1,23 +1,17 @@
-<!DOCTYPE html>
 <html>
 <head>
-<style>
-h1 {
-    color: blue;
-    font-family: verdana;
-    font-size: 300%;
-
-}
-p  {
-    color: red;
-    font-family: courier;
-    font-size: 160%;
-}
-</style>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/main/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/main/css/dashboard.css">
+    <title>OSDC Administrator</title>
 </head>
 <body>
-
-<h1>DASHBOARD</h1>
-
+    <div class="container">
+        <div class="left_menu" id="left_menu"></div>
+        <script>$("#left_menu").load("leftmenu.html");</script>
+        <div class="main_content" id="main_content">
+            <h1 style="font-family: Century Gothic, sans-serif;">THIS IS DASHBOARD</h1>
+        </div>
+    </div>
 </body>
 </html>
