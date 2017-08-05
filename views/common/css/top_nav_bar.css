@@ -1,0 +1,11 @@
+.top_nav_bar_content {
+    width: inherit;
+    height: inherit;
+
+    /*background: #0f52ba;*/
+    /*font-family: Century Gothic, sans-serif;*/
+    font-size: 40px;
+    line-height: inherit;
+    text-align: center;
+    /*color: #FFFFFF;*/
+}

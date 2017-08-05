@@ -1,6 +1,7 @@
 <html>
 <head>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/color.css">
     <link rel="stylesheet" type="text/css" href="/main/css/common.css">
     <link rel="stylesheet" type="text/css" href="/main/css/dashboard.css">
     <title>OSDC Administrator</title>
@@ -10,8 +11,11 @@
         <div class="left_menu" id="left_menu"></div>
         <script>$("#left_menu").load("leftmenu.html");</script>
         <div class="main_content" id="main_content">
-            <h1 style="font-family: Century Gothic, sans-serif;">THIS IS DASHBOARD</h1>
+            <div class="top_nav_bar" id="top_nav_bar"></div>
+            <script>$("#top_nav_bar").load("topnavbar.html");</script>
+            <div class="main_content_1 color_background" id="main_content_1"></div>
         </div>
     </div>
+    <script type="text/javascript" src="/main/js/dashboard.js"></script>
 </body>
 </html>

@@ -3,6 +3,6 @@
 // --------------------------------------------------------
 
 module.exports = function(req, res, next) {
-	//console.log('Request from: ' + req.connection.remoteAddress + ' on ' + new Date());
+	console.log('Request from: ' + req.connection.remoteAddress + ' on ' + new Date());
 	next();
 };

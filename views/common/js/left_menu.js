@@ -1,5 +1,6 @@
 // A $( document ).ready() block.
 $( document ).ready(function() {
+    console.log('leftmenu.html is ready!');
 
     $("#left_menu_li_main").on("click", function() {
         window.location = "/";
@@ -10,7 +11,4 @@ $( document ).ready(function() {
     $("#left_menu_li_dashboard").on("click", function() {
         window.location = "/dashboard";
     });
-    // $("#left_menu_li_4").on("click", function() {
-    //     window.location = "/list";
-    // });
 });
