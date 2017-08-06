@@ -1,3 +1,32 @@
 #left_menu_li_list {
-    background: #96deae;
+    background: #545454 !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #545454,#a9a9a9,#ffffff) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #545454,#a9a9a9,#ffffff) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #545454,#a9a9a9,#ffffff) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #545454,#a9a9a9,#ffffff) !important; /* Standard syntax */
+    color: #545454 !important;
+    font-weight: bold;
+    font-size: 28px;
+}
+#circle_inside_list {
+    display: block;
+}
+.sub_content {
+    height: 300px;
+    width: inherit;
+    margin: 10px;
+    display: flex;
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid #545454;
+}
+.sub_content_img {
+    height: inherit;
+    width: 300px;
+    border: 1px solid #545454;
+}
+.sub_content_caption {
+    height: inherit;
+    flex-grow: 1;
+    padding-left: 10px;
 }

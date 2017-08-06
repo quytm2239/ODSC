@@ -28,4 +28,5 @@ body {
 .main_content_1 {
     height: calc( 100% - 60px );
     /*background: #e7edf8;*/
+    border-top: 1px solid #545454;
 }
