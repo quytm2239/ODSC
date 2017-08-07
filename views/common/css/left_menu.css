@@ -21,7 +21,7 @@
     text-align: center;
     /*background: #9966cc;*/
     /*font-family: Century Gothic, sans-serif;*/
-    font-size: 35px !important;
+    font-size: 30px !important;
     font-weight: bold;
     cursor:default;
 }
@@ -43,8 +43,8 @@
 
 .left_menu_li {
     width: inherit;
-    height: 45px;
-    line-height: 45px;
+    height: 40px;
+    line-height: 40px;
     padding-left: 25px;
     /*background: #50c878;*/
     /*margin-top: 2px;
@@ -54,7 +54,7 @@
 }
 
 .left_menu_li_div_left {
-	width: 45px;
+	width: 40px;
     background: transparent !important;
     /*float:left;*/
     padding-left: 20px;
@@ -86,6 +86,6 @@
     font-weight: bold;
     /*font-style: italic;*/
     /*text-decoration: underline;*/
-    /*background: #ffffff;
-    color: #545454;*/
+    /*background: #FEFCFF;
+    color: #7b3f00;*/
 }

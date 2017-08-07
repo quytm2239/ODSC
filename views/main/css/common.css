@@ -10,8 +10,8 @@ body {
 }
 
 .left_menu {
-    width: 280px;
-    min-width: 280px;
+    width: 240px;
+    min-width: 240px;
     /*background: #3e74c7;*/
 }
 .main_content, .top_nav_bar {
@@ -29,5 +29,5 @@ body {
 .main_content_1 {
     height: calc( 100% - 60px );
     /*background: #e7edf8;*/
-    border-top: 1px solid #545454;
+    border-top: 1px solid #7b3f004;
 }
