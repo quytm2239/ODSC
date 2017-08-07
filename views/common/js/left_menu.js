@@ -2,6 +2,8 @@
 $( document ).ready(function() {
     console.log('leftmenu.html is ready!');
 
+    setSelectedMenu();
+
     $("#left_menu_li_main").on("click", function() {
         window.location = "/";
     });
@@ -11,6 +13,8 @@ $( document ).ready(function() {
     $("#left_menu_li_dashboard").on("click", function() {
         window.location = "/dashboard";
     });
+
+    // Visual effect for hover
     var originalDisplay;
     $(".left_menu_li").mouseenter(function() {
         originalDisplay = $(this).find(".circle_inside").css("display");
@@ -30,3 +34,22 @@ $( document ).ready(function() {
         $(this).css("color", "#FFFFFF");
     });
 });
+
+function setSelectedMenu() {
+    switch (location.pathname) {
+        case '/':
+            $('#left_menu_li_main').addClass('gradient');
+            $('#circle_inside_main').css('display','block');
+            break;
+        case '/list':
+            $('#left_menu_li_list').addClass('gradient');
+            $('#circle_inside_list').css('display','block');
+            break;
+        case '/dashboard':
+            $('#left_menu_li_dashboard').addClass('gradient');
+            $('#circle_inside_dashboard').css('display','block');
+            break;
+        default:
+            break;
+    }
+}

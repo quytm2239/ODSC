@@ -88,3 +88,13 @@
 	-webkit-border-radius: calc(50%);
 	border-radius: calc(50%);
 }
+.gradient {
+    background: #545454; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #545454,#a9a9a9,#ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #545454,#a9a9a9,#ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #545454,#a9a9a9,#ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #545454,#a9a9a9,#ffffff); /* Standard syntax */
+    color: #545454;
+    font-weight: bold;
+    font-size: 28px;
+}

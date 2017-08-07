@@ -11,6 +11,7 @@ body {
 
 .left_menu {
     width: 280px;
+    min-width: 280px;
     /*background: #3e74c7;*/
 }
 .main_content, .top_nav_bar {
