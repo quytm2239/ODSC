@@ -41,3 +41,8 @@
     float: left;*/
     background: transparent !important;
 }
+
+.menu_bar {
+    height: 45px !important;
+    margin: 10 5 5 10;
+}
