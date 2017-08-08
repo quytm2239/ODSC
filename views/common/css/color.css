@@ -51,19 +51,19 @@
     background: #FEFCFF;
 }
 .color_darkder {
-    background: #7b3f00;
+    background: #492500;
     color: #FEFCFF;
     font-family: 'Didact Gothic';font-size: 20px;
 }
 .color_lighter {
     background: #FEFCFF;
-    color: #7b3f00;
+    color: #492500;
     font-family: 'Didact Gothic';font-size: 45px;
     font-weight: bold;
 }
 .color_content {
     background: #FEFCFF;
-    color: #7b3f00;
+    color: #492500;
     font-family: 'Didact Gothic';font-size: 20px;
     font-weight: normal;
 }
@@ -84,18 +84,18 @@
     width: 60%;
     height: 60%;
     display: none;
-	background: #7b3f00;
+	background: #492500;
 	-moz-border-radius: calc(50%);
 	-webkit-border-radius: calc(50%);
 	border-radius: calc(50%);
 }
 .gradient {
-    background: #7b3f00 !important; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(-90deg, #7b3f00,#a9a9a9,#FEFCFF) !important; /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(-90deg, #7b3f00,#a9a9a9,#FEFCFF) !important; /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(-90deg, #7b3f00,#a9a9a9,#FEFCFF) !important; /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-90deg, #7b3f00,#a9a9a9,#FEFCFF) !important; /* Standard syntax */
-    color: #7b3f00 !important;
+    background: #492500 !important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #492500,#a9a9a9,#FEFCFF) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #492500,#a9a9a9,#FEFCFF) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #492500,#a9a9a9,#FEFCFF) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #492500,#a9a9a9,#FEFCFF) !important; /* Standard syntax */
+    color: #492500 !important;
     font-weight: bold;
     /*font-size: 24px;*/
 }

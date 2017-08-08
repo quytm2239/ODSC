@@ -18,19 +18,19 @@ $( document ).ready(function() {
     var originalDisplay;
     $(".left_menu_li").mouseenter(function() {
         originalDisplay = $(this).find(".circle_inside").css("display");
-        $(this).find(".circle").css("background", "#7b3f00");
+        $(this).find(".circle").css("background", "#492500");
         $(this).find(".circle_inside").css("background", "#FEFCFF");
         if($(this).find(".circle_inside").css("display") == 'none') {
             $(this).find(".circle_inside").css("display", "block");
         }
         $(this).css("background", "#FEFCFF");
-        $(this).css("color", "#7b3f00");
+        $(this).css("color", "#492500");
     });
     $(".left_menu_li").mouseleave(function() {
         $(this).find(".circle").css("background", "#FEFCFF");
-        $(this).find(".circle_inside").css("background", "#7b3f00");
+        $(this).find(".circle_inside").css("background", "#492500");
         $(this).find(".circle_inside").css("display", originalDisplay);
-        $(this).css("background", "#7b3f00");
+        $(this).css("background", "#492500");
         $(this).css("color", "#FEFCFF");
     });
 });

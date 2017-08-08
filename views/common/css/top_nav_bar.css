@@ -2,10 +2,10 @@
     width: inherit;
     height: inherit;
 
-    background: #7b3f00 !important;
+    background: #492500 !important;
     /*font-family: Century Gothic, sans-serif;*/
     font-size: 40px;
     line-height: inherit;
     text-align: center;
-    /*color: #FEFCFF;*/
+    color: #FEFCFF !important;
 }
